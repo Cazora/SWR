@@ -1,0 +1,104 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Templar Assassin
+	//=================================================================================================================
+	"npc_dota_hero_templar_assassin_template"
+	{
+		"override_hero"				"npc_dota_hero_templar_assassin"			// Hero to override
+		"Ability1"					"templar_assassin_refraction_holdout"		// Ability 1
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+	}
+	
+		//=================================================================================================================
+	// HERO: Sniper
+	//=================================================================================================================
+	"npc_dota_hero_sniper_template"
+	{
+		"override_hero"				"npc_dota_hero_sniper"			// Hero to override
+		"AbilityLayout"     "6"
+		"Ability1"					"medusa_mana_shield"		// Ability 1
+		"Ability2"					"riki_permanent_invisibility"		// Ability 2
+		"Ability3"					"riki_smoke_screen"		// Ability 3
+		"Ability4"					"phantom_assassin_coup_de_grace"		// Ability 4
+		"Ability5"                   "sniper_take_aim"                                //ability 5
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		"AttackDamageMin"			"900"		// Damage range min.
+		"AttackDamageMax"			"950"		// Damage range max.
+	}
+	
+		//=================================================================================================================
+	// HERO: Clockwerk-Cyborg
+	//=================================================================================================================
+	"npc_dota_hero_rattletrap_template"
+	{
+
+		"override_hero"				"npc_dota_hero_rattletrap"			// Hero to override
+		 "AbilityLayout"     "6"
+		"Ability1"					"medusa_mana_shield"		// Ability 1
+		"Ability2"					"axe_berserkers_call"		// Ability 2
+		"Ability3"					"rattletrap_rocket_flare"		// Ability 3
+		"Ability4"					"templar_assassin_refraction"		// Ability 4
+		"Ability5"                    "phantom_assassin_blur"                  // Ability 5
+		"Ability6"                    "sven_warcry"                             // Ability 6
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		"AttackDamageMin"			"900"		// Damage range min.
+		"AttackDamageMax"			"950"		// Damage range max.
+		"AttackRange"                   "450"     // attack range.
+		"AttackAcquisitionRange"    "450"     // attack range.
+	
+	}	
+	
+			//=================================================================================================================
+	// HERO: Techies-Demo
+	//=================================================================================================================
+	"npc_dota_hero_techies"
+	{
+
+		"override_hero"				"npc_dota_hero_techies"			// Hero to override
+		 "AbilityLayout"     "6"
+		"Ability1"					"medusa_mana_shield"		// Ability 1
+		"Ability2"					"techies_land_mines"		// Ability 2
+		"Ability3"					"invoker_chaos_meteor"		// Ability 3
+		"Ability4"					"gyrocopter_call_down"		// Ability 4
+		"Ability5"                   "keeper_of_the_light_chakra_magic"                  // Ability 5
+		"Ability6"                   "techies_remote_mines"                             // Ability 6
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		"AttackDamageMin"			"900"		// Damage range min.
+		"AttackDamageMax"			"950"		// Damage range max.
+		"AttackRange"                   "450"     // attack range.
+		"AttackAcquisitionRange"    "450"     // attack range.
+	
+	}	
+	//=================================================================================================================
+	// HERO: legion_commander-Tact
+	//=================================================================================================================
+	"npc_dota_hero_rattletrap_template"
+	{
+
+		"override_hero"				"npc_dota_hero_legion_commander"			// Hero to override
+		 "AbilityLayout"     "6"
+		"Ability1"					"medusa_mana_shield"		// Ability 1
+		"Ability2"					"spirit_breaker_empowering_haste"		// Ability 2
+		"Ability3"					"sun_strike"		// Ability 3
+		"Ability4"					"beastmaster_inner_beast"		// Ability 4
+		"Ability5"                   "troll_warlord_battle_trance"                  // Ability 5
+		"Ability6"                   "enchantress_enchant"                             // Ability 6
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		"AttackDamageMin"			"900"		// Damage range min.
+		"AttackDamageMax"			"950"		// Damage range max.
+		"AttackRange"                   "450"     // attack range.
+		"AttackAcquisitionRange"    "450"     // attack range.
+	
+	}	
+	
+	
+	
+	
+	
+	
+}
+
